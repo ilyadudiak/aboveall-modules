@@ -323,3 +323,223 @@ left: 7px;
     padding: 11.5px 30px;
     border: 1px solid #000;
 }
+
+.cancel-btn{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+}
+
+.save-btn{
+    padding: 16px 50px;
+    background-color: #FF0000;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 10%;
+}
+
+.new-label__buttons{
+    width: 100%;
+    display: flex;
+    gap: 0 39.5px;
+    justify-content: flex-end;
+}
+
+.login-select{
+    padding-bottom: 100px;
+}
+
+.login-select__select{
+    max-width: 337px;
+    width: 100%;
+    min-height: 42px;
+}
+
+.login-select__option{
+    min-height: 42pxs;
+}
+
+
+
+
+
+
+.leave-popup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px 0;
+    max-width: 611px;
+    width: 100%;
+    min-height: 329px;
+    position: relative;
+}
+
+
+.leave-popup__close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.leave-popup__title{
+    max-width: 316px;
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--main-font);
+    font-size: 28px;
+    color: #000;
+}
+
+.leave-popup__subtitle{
+    font-size: 16px;
+    font-weight: 300;
+    color: #666666;
+}
+
+
+
+.leave-popup__buttons{
+    width: 100%;
+    padding: 0 33.5px;
+    display: flex;
+    gap: 15px;
+}
+.leave-popup__btn{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    min-height: 42px;
+    color: #fff;
+}
+
+.leave-popup__btn-black{
+    background-color: #000;
+    
+}
+
+.leave-popup__btn-red{
+    background-color: #FF0000;
+}
+
+
+
+
+.login{
+    max-width: 571px;
+    width: 100%;
+    min-height: 487px;
+    border: 1px solid #DDE2E9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.login__title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    line-height: 66px;
+    margin-top: 38px;
+}
+
+.login__subtitle{
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.login__inputs{
+    margin-top: 61px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    width: 100%;
+    max-width: 337px;
+}
+
+.login__inputs input{
+    min-height: 42px;
+
+}
+
+.login__inputs input::placeholder{
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.login__wrong{
+    text-align: left;
+    width: 100%;
+    max-width: 337px;
+
+    font-size: 13px;
+    font-weight: 300;
+
+    color: #FF0000;
+    line-height: 24px;
+}
+
+
+.login__btn{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 337px;
+    min-height: 42px;
+
+    background-color: #FF0000;
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    letter-spacing: 10%;
+}
+
+
+
+
+.distribution-popup{
+    display: flex;
+    flex-direction: column;
+    padding: 11px 20px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.distribution-popup li{
+    list-style: none;
+    padding-bottom: 11.5px;
+    padding: 11px 0;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    gap: 0 10px;
+}
+
+.distribution-popup li:last-child{
+    border: none;
+}
+
+.distribution-popup a{
+    text-decoration: none;
+    color: #000;
+}
+
+.distribution-popup li:nth-child(2) a{
+    color: #FF0000;
+}
