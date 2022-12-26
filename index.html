@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="new-label">
+        <div class="new-label__top">
+            <div class="new-label__text">
+                <h1>Add a New Label</h1>
+                <p>Step 1 : General information about Label</p>
+            </div>
+            <img src="img/top.svg" alt="">
+        </div>
+        <div class="new-label__body">
+            <div class="new-label__body-left">
+                <h2>label logo</h2>
+                <div class="file-input">
+                <input type="file">
+            </div>
+                <p>JPG, max 15MB </p>
+                <p>From 1500x1500 to 3000x3000 px</p>
+            </div>
+            <div class="new-label__body-right">
+                <div class="new-label__primary">
+                    <h2>primary info</h2>
+                    <div class="input-group">
+                        <input type="text" placeholder="Label Name">
+                        <select name="Type" id="">
+                            <option value="">Type</option>
+                            <option value="">Type1</option>
+                            <option value="">Type2</option>
+                        </select>
+                        <select name="Type" id="">
+                            <option value="">Parent</option>
+                            <option value="">Parent1</option>
+                            <option value="">Parent2</option>
+                        </select>
+                        <input type="text" placeholder="Appear as">
+                    </div>
+                    <button type="submit" class="new-label-primary__btn">Fill Parent Label Information</button>
+                </div>
+                <div class="new-label__contact">
+                    <h2>contact person</h2>
+                    <div class="input-group">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Zip Code">
+                        <select name="Country" id="">
+                            <option value="country1">Country</option>
+                            <option value="country2">Country2</option>
+                            <option value="country3">Country3</option>
+                        </select>
+                        <input type="text" placeholder="City">
+                        <input type="text" placeholder="Address Line1">
+                        <input type="text" placeholder="Address Line2">
+                        <input type="text" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="new-label__billing">
+                    <h2>Billing Information</h2>
+                    <div class="input-group">
+                        <input type="text" placeholder="Ein/ssn">
+                    <select name="status" id="">
+                        <option value="">Status</option>
+                        <option value="">Status1</option>
+                        <option value="">Status2</option>
+                    </select>
+                        <input type="text" placeholder="Billing provider">
+                        <select name="biling" id="">
+                            <option value="">Billing type</option>
+                            <option value="">Billing type1</option>
+                            <option value="">Billing type2</option>
+                        </select>
+                        <select name="business" id="">
+                            <option value="">Business Type</option>
+                            <option value="">Business Type1</option>
+                            <option value="">Business Type2</option>
+                        </select>
+                        <input type="text" placeholder="Billing Account">
+                        <select name="payment" id="">
+                            <option value="">Payment Period</option>
+                            <option value="">Payment Period1</option>
+                            <option value="">Payment Period2</option>
+                        </select>
+                        <select name="payout" id="">
+                            <option value="">Payout type </option>
+                            <option value="">Payout type 1</option>
+                            <option value="">Payout type 2</option>
+                        </select>
+                    </div>
+                    
+                </div>
+
+                <div class="new-label__cut">
+                    <div class="new-label__cut-text">
+                        <h2>label split</h2>
+                        <button> <img src="img/trash.svg" alt=""> Delete</button>
+                    </div>
+                    <div class="new-label__cut-items">
+                        <div class="new-label__cut-wrapper"><input type="number" class="new-label__cut-item" placeholder="0"></div>
+                        <div class="new-label__cut-wrapper"><input type="number" class="new-label__cut-item" placeholder="0"></div>
+                        <div class="new-label__cut-wrapper"><input type="number" class="new-label__cut-item" placeholder="0"></div>
+                        <div class="new-label__cut-wrapper"><input type="number" class="new-label__cut-item" placeholder="0"></div>
+                        <div class="new-label__cut-wrapper"><input type="number" class="new-label__cut-item" placeholder="0"></div>
+                    </div>
+                    <div class="new-label__cut-months">
+                        <div class="month__wrapper month__wrapper1">
+                            <input type="month" class="month">
+                            <span class="month__placeholder month__placeholder1">Month Start</span>
+                        </div>
+                        <div class="month__wrapper month__wrapper2">
+                            <input type="month" class="month">
+                            <span class="month__placeholder month__placeholder2">Month End</span>
+                        </div>
+                    </div>
+                    <button><img src="img/+.svg" alt=""> Add New Cut</button>
+                </div>
+                <div class="new-label__restrictions">
+                    <div class="new-label__restrictions-top">
+                        <h2>LABEL RESTRICTIONS</h2>
+                        <button>Use Parent Label Restrictions</button>
+                    </div>
+                    <div class="new-label-restriction-checks">
+                       <label for="" class="new-label-restriction-check">
+                        <input type="checkbox">
+                        <span> Video</span>
+                    </label>
+                       <label for="" class="new-label-restriction-check">
+                        <input type="checkbox">
+                        <span> Album</span>
+                    </label>
+                       <label for="" class="new-label-restriction-check">
+                        <input type="checkbox">
+                        <span> Ringtone</span>
+                    </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
